@@ -14,21 +14,23 @@ The model used is a Convolution Neural network with the following structure:
 
 <img src="./model_summary.png" alt="model summary"/>
 
-After training the model the final accuracy achieved was ~85%. The following plots show the classification loss and accuracy the training (green line) and testing (red line) data respectively.
+After training the model the final accuracy achieved was ~85%. The following plots show the classification loss and accuracy on the training (orange line) and testing (blue line) data respectively.
 
-Epoch loss:
-
+### Epoch loss:
+<br>
 <img src="./Eval_Plots/epoch_loss.svg" alt="epoch loss"/>
+<br>
 
-Epoch accuracy:
-
+### Epoch accuracy:
+<br>
 <img src="./Eval_Plots/epoch_accuracy.svg" alt="epoch acc"/>
+<br>
 
 # 3. Making Predictions
 Using the final model, predictions on sample images not belonging to the dataset could be achieved with considerable accuracy, below are some examples:
-
+<br><br>
 <img src="./Assets/pred_cat.png"/>
-
+<br><br>
 <img src="./Assets/pred_dog.png"/>
-
+<br><br>
 <img src="./Assets/pred_airplane.png"/>
